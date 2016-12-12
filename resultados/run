@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in ../../instancias/*
+do
+  ./gvns-mlp $file 2000 5 1 100 0
+done
